@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(60, 54, 46);
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 1.5em;
+}
+span {
+  border-bottom: 1px solid rgb(14, 14, 13);
+}
+p {
+  padding: 5em 1em;
+  background: rgb(255, 254, 254);
+  color: rgb(8, 8, 8);
+  border-radius: 7px;
+}
+
+button {
+  background: green;
+  padding: 1em 6em;
+  margin-top: 3em;
+  border-radius: 7px;
+  font-size: 1em;
+  border: none;
+  color: white;
+}
+
